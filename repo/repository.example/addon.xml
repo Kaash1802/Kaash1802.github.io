@@ -2,9 +2,9 @@
 <addon id="football.live" name="kaashtv" version="1.0.0" provider-name="Kaash1802">
     <extension point="xbmc.addon.repository" name="kaashtv">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Kaash1802/kaashtv/main/repo/zips/addons.xml</info>
+            <info compressed="false">https://raw.githubusercontent.com/Kaash1802/kaashtv/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Kaash1802/kaashtv/mainrepo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Kaash1802/kaashtv/main/repo/zips/</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/Kaash1802/kaashtv/master/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
