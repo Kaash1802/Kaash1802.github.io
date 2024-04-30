@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="kaashtv.live" name="kaashtv" version="1.0.0" provider-name="Kaash1802">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+      <provides>video</provides>
+    </extension>
     <extension point="xbmc.addon.repository" name="kaashtv">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Kaash1802/kaashtv/master/repo/zips/addons.xml</info>
