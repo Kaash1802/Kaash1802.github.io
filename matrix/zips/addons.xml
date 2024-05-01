@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="kaashtv.live" name="kaashtv" version="1.0.0" provider-name="Kaash1802">
+    <extension point="xbmc.addon.repository" name="kaashtv">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Kaash1802/kaashtv/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Kaash1802/kaashtv/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Kaash1802/kaashtv/master/repo/zips/</datadir>
+        </dir>
+        <dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/Kaash1802/kaashtv/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Kaash1802/kaashtv/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Kaash1802/kaashtv/master/matrix/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Kaash1802/kaashtv/master/matrix/zips/plugin.video.football/addon.xml</info>
+            <checksum>https://raw.githubusercontent.com/Kaash1802/kaashtv/master/matrix/zips/plugin.video.football/addon.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Kaash1802/kaashtv/master/matrix/zips/plugin.video.football/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>kaashtv</summary>
+        <description>Kodi Video Addon for Publicly Available TV Channels</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="plugin.video.football" name="Football Live" provider-name="jrmdev" version="1.0.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension library="default.py" point="xbmc.addon.metadata">
+    <summary>Template Video add-on</summary>
+    <description>This is a base addon to build from.</description>
+    <provides>video</provides>
+    <platform>all</platform>
+</extension>
+</addon></addons>
